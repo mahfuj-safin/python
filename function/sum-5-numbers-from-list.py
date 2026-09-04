@@ -1,7 +1,6 @@
 # sum of 5 numbers from a list
 
-numbers = input("Enter the numbers: ").replace("," , " ").split()
-numbers = [int(i) for i in numbers]
+
 def sum_list(numbers):
 
   total = 0
@@ -10,13 +9,19 @@ def sum_list(numbers):
 
   return total
 
+# input
+numbers = input("Enter the numbers: ").replace("," , " ").split()  #Here, the replace function works. If someone gives the numbers with commas, it will remove the commas and make them into spaces, for example: 25,45,54 -> 25 45 54. The function of split is to separate each number from the space it finds and create a string.
+
+numbers = [int(i) for i in numbers]  #Here the value of numbers is taken from i and the values ​​of i are made integers.
+
+# function call
 result = sum_list(numbers)
 print(result)
 
 
 
 # -------------------------------------------------------------------
-# 
+# Since Python is case sensitive, I have written the above in uppercase only, since the problem is the same.
 
 def SUM_LIST(NUMBERS):
 
