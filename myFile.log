@@ -1,0 +1,5 @@
+2026-09-05 01:15:53,363 - DEBUG - Harmless debug message
+2026-09-05 01:15:53,363 - INFO - Program started successfully
+2026-09-05 01:15:53,363 - WARNING - Low disk space warning
+2026-09-05 01:15:53,363 - ERROR - some error in program
+2026-09-05 01:15:53,363 - CRITICAL - Critical issue! system might be down
